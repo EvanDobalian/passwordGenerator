@@ -24,10 +24,10 @@ function generatePassword() {
   }
 
   do {
-  var addLower = confirm("Include lowercase letters?");
-  var addCaps = confirm("Include capital letters?");
-  var addNumbers = confirm("Include numbers?");
-  var addSpecial = confirm("Include special characters?");
+    var addLower = confirm("Include lowercase letters?");
+    var addCaps = confirm("Include capital letters?");
+    var addNumbers = confirm("Include numbers?");
+    var addSpecial = confirm("Include special characters?");
 
     if (addLower) {
       options += lower;
